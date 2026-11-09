@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -107,15 +107,15 @@
             <h2>Reportar um problema</h2>
 
             <p>
-                Encontraste algum prooblema na tua comunidade?
-                Conta-nos o que está acontecer.
+                Encontraste algum problema na tua comunidade?
+                Conta-nos o que está a acontecer.
             </p>
 
             <form class="formulario-reportar">
 
                 <div class="campo">
-                    <label for="Categoria do problema"></label>
-                    <select id="categoria" name="categoria">
+                    <label for="categoria">Categoria do problema</label>
+                    <select id="categoria" name="categoria" required>
                         <option value="">Seleciona uma categoria</option>
 
                         <option value="agua">Águas</option>
@@ -136,8 +136,8 @@
                         id="descricao"
                         name="descricao"
                         placeholder="Descreve o problema que encontraste..."
-                        rows="5">
-                    </textarea>
+                        rows="5" 
+                        required></textarea>
                 </div>
                 
                 <div class="campo">
@@ -148,7 +148,7 @@
                         type="text"
                         id="localizacao"
                         name="localizacao"
-                        placeholder="Ex: Bairro 5 - Patrice Lumumba, Rua da Escola 07 de Outubro">
+                        placeholder="Ex: Bairro 5 - Patrice Lumumba, Rua da Escola 07 de Outubro" required>
 
                 </div>
 
@@ -167,10 +167,55 @@
                 <button type="submit" class="botao-enviar">
                     Enviar denúncia
                 </button>
+                
+                <p id="mensagem-sucesso" class="mensagem-sucesso"></p>
             </form>
         </div>
 
     </section>
+
+    <section id="sobre" class="sobre">
+
+    <div class="titulo-sobre">
+        <span>QUEM SOMOS</span>
+
+        <h2>Sobre Cidade Conectada</h2>
+
+        <p>
+            Cidade Conectada é uma plataforma criada para aproximar
+            os cidadãos da identificação e comunicação dos problemas
+            que afetam o seu bairro.
+
+            Através dela, qualquer cidadão pode reportar situações
+            relacionadas com água, resíduos sólidos, saneamento,
+            drenagem, iluminação pública e estradas.
+
+            O nosso objetivo é incentivar a participação dos cidadãos
+            e contribuir para a construção de um bairro melhor.
+        </p>
+    </div>
+
+</section>
+
+<section id="consultar" class="consultar">
+
+    <div class="titulo-consultar">
+        <span>ACOMPANHAMENTO</span>
+
+        <h2>Consultar ocorrência</h2>
+
+        <p>
+            Estamos a preparar uma funcionalidade que permitirá
+            aos cidadãos acompanhar o estado das ocorrências
+            submetidas através da plataforma.
+
+            Esta funcionalidade estará disponível numa próxima fase.
+        </p>
+
+    </div>
+
+</section>
+    <script src="script.js"></script>
     
 </body>
 </html>

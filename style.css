@@ -255,3 +255,82 @@
 .botao-enviar:hover {
     background-color: #105235;
 }
+
+.mensagem-sucesso {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e5f7ec;
+    color: #176b45;
+    border: 1px solid #a8dfbd;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sobre {
+    padding: 70px 8%;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-sobre {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-sobre span {
+    color: #176B45;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-sobre h2 {
+    color: #173C2B;
+    font-size: 32px;
+    margin: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-sobre p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.consultar {
+    padding: 70px 8%;
+    background-color: #f0f5f1;
+}
+
+.titulo-consultar {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-consultar span {
+    color: #176B45;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-consultar h2 {
+    color: #173C2B;
+    font-size: 32px;
+    margin: 15px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-consultar p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
